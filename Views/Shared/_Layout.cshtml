@@ -6,6 +6,8 @@
     <title>@ViewData["Title"] - BldgMngr</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -41,10 +43,52 @@
     </div>
 
     <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2020 - BldgMngr - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-3">
+                    <h5>LET'S TALK</h5>
+                    <p>
+                        555-555-5555 <br />
+                        mail@mail.com
+                    </p>
+                    <h5>Floyd Management</h5>
+                    <p>
+                        555 Main St <br />
+                        Any City, State
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <h5>OFFICE HOURS</h5>
+                    <p>
+                        Monday - Friday <br />
+                        9:00am - 5:00pm <br />
+                        Saturday <br />
+                        10:00am - 4:00pm
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <h5>SITE LINKS</h5>
+                    <p>
+                        <a href="#">ACCOUNTS</a> <br />
+                        <a href="#">COMMUNITY</a> <br />
+                        <a href="#">POLICIES</a>
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <h5>FOLLOW FLOYD MNGMT</h5>
+                    <p>
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-twitter"></i>
+                    </p>
+                    <p>
+                        COPYRIGHT 2020 FLOYD MNGMT
+                    </p>
+                </div>
+            </div>
         </div>
     </footer>
+    <!--font awesome-->
+    <script src="https://kit.fontawesome.com/cce4d0df7e.js" crossorigin="anonymous"></script>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
