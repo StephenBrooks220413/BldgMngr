@@ -51,17 +51,28 @@ button.accept-policy {
   line-height: inherit;
 }
 
-/********** top carousel image **********/
-.top-img {
-    background: url(https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 60vh;
-    width: 100%;
-    padding-top:10%;
-    padding-left:10%;
+/********** added css **********/
+.logo-top {
+    top: 110px;
+    left:40px;
+}
+.block-1 {
+    background-color:teal;
+    color:white;
+    display:inline;
+    width: 100%!important;
+    height:auto;
+    padding-top:15px;
+    padding-bottom:15px;
+}
+.block-2 {
+    background-color:gainsboro;
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    height: auto!important;
+    width: 100%!important;
 }
 /***************************************/
 
