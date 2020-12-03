@@ -1,0 +1,14 @@
+[
+  {
+    "OutPutName": "wwwroot/css/site.min.css",
+    "InPutName": [
+      "wwwroot/css/site.css"
+    ]
+  },
+  {
+    "OutPutName": "wwwroot/js/site.min.js",
+    "InPutName": [
+      "wwwroot/js/site.js"
+    ]
+  }
+]
