@@ -6,6 +6,18 @@
     <CopyRefAssembliesToPublishDirectory>false</CopyRefAssembliesToPublishDirectory>
     <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
     <DockerfileContext>.</DockerfileContext>
+    <Authors>Stephen Brooks</Authors>
+    <Company>ClearWebDesigns</Company>
+    <Product>asp.Net5</Product>
+    <Description>App for apartment management, showcasing rentals, leasing info</Description>
+    <Copyright>www.clear-web-designs.com - 2020</Copyright>
+    <PackageProjectUrl>https://projmngr.azurewebsites.net/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/StephenBrooks220413/BldgMngr.git</RepositoryUrl>
+    <RepositoryType>asp.Net core</RepositoryType>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <FileVersion>1.0.1.0</FileVersion>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <TypeScriptToolsVersion>Latest</TypeScriptToolsVersion>
   </PropertyGroup>
 
   <ItemGroup>
@@ -26,5 +38,21 @@
     <PackageReference Include="NetlifySharp" Version="1.1.0" />
     <PackageReference Include="Npm" Version="3.5.2" />
   </ItemGroup>
+
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+    <TypeScriptTarget>ES5</TypeScriptTarget>
+    <TypeScriptJSXEmit>React</TypeScriptJSXEmit>
+    <TypeScriptModuleKind />
+    <TypeScriptCompileOnSaveEnabled>True</TypeScriptCompileOnSaveEnabled>
+    <TypeScriptNoImplicitAny>False</TypeScriptNoImplicitAny>
+    <TypeScriptRemoveComments>False</TypeScriptRemoveComments>
+    <TypeScriptOutFile />
+    <TypeScriptOutDir />
+    <TypeScriptGeneratesDeclarations>False</TypeScriptGeneratesDeclarations>
+    <TypeScriptNoEmitOnError>True</TypeScriptNoEmitOnError>
+    <TypeScriptSourceMap>True</TypeScriptSourceMap>
+    <TypeScriptMapRoot />
+    <TypeScriptSourceRoot />
+  </PropertyGroup>
 
 </Project>
