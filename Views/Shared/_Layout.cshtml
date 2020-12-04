@@ -11,7 +11,12 @@
 </head>
 <body>
     <header>
-        <p style="margin-left:20px;"><img src="https://homestyleflooringsolutions.com/wp-content/uploads/2017/07/Property-Logo.jpg" width="90px" height="70px" class="logo-top" alt="logo" />RESIDENTS MAY CALL US AT 555-555-5555</p>
+        <p style="margin-left:20px;"><img src="https://homestyleflooringsolutions.com/wp-content/uploads/2017/07/Property-Logo.jpg" width="90px" height="70px" class="logo-top" alt="logo" />RESIDENTS MAY CALL US AT 555-555-5555 
+            <span style="font-size:1.8em; color:lightgray;">
+               <a class="nav-link text-dark" style=" float:right;" asp-area="" asp-controller="Home" asp-action="Profile"><i class="fas fa-users"></i></a>
+               <a class="nav-link text-dark" style=" float:right;" asp-area="" asp-controller="Home" asp-action="Account"><i class="fas fa-comments-dollar"></i></a>
+            </span>
+        </p>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">FLOYD'S</a>
@@ -39,6 +44,7 @@
     <main role="main" class="pb-3">
         @RenderBody()
     </main>
+    <hr />
     <footer class="footer text-muted">
         <div class="container text-center">
             <div class="row">
@@ -66,9 +72,9 @@
                 <div class="col-md-3">
                     <h5>SITE LINKS</h5>
                     <p>
-                        <a href="#">ACCOUNTS</a> <br />
-                        <a href="#">COMMUNITY</a> <br />
-                        <a href="#">POLICIES</a>
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Account">Account</a>
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Community">COMMUNITY</a> 
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">POLICIES</a>
                     </p>
                 </div>
                 <div class="col-md-3">

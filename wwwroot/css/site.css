@@ -74,13 +74,19 @@ button.accept-policy {
     height: auto!important;
     width: 100%!important;
 }
+.payLogo {
+    position: absolute;
+    top:180px;
+    right:50px;
+    width: 160px;
+    height:110px;
+}
 /***************************************/
-
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {

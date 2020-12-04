@@ -33,6 +33,17 @@ namespace BldgMngr.Controllers
         {
             return View();
         }
+        /*REQUIRED LOGINS*/
+        [Authorize]
+        public IActionResult Profile()
+        {
+            return View();
+        }
+        [Authorize]
+        public IActionResult Account()
+        {
+            return View();
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
